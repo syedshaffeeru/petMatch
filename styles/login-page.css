@@ -1,9 +1,9 @@
 html,body{
-    background-image: url('https://media.mercola.com/ImageServer/Public/2018/April/FB/11-22-male-vs-female-dog-behavior-fb.jpg');
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxILXu03XuAHLIsceteFawiEBxBL5-uJpo2Q&usqp=CAU'); */
+    background-image: url('https://images.unsplash.com/photo-1575470887806-b77feadf85fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    /* height: 100%; */
+    
         
 }
 .container{
@@ -13,15 +13,16 @@ html,body{
     
 .card{
     height: 370px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 20%;
+    margin-left: 50%;
     width: 400px;
-    background-color: rgba(0,0,0,0.5) !important;
+    /* background-color: rgba(0,0,0,0.5) !important; */
+    background: linear-gradient(to top, #FD297B 0%, #FF655B 100%) !important;    
     }
     
     .social_icon span {
         font-size: 70px;
-        color: #FFC312;
+        color: white;
     }
        
 .card-header h3{
@@ -39,8 +40,8 @@ html,body{
     
     .input-group-prepend span{
     width: 50px;
-    background-color: #FFC312;
-    color: black;
+    background-color: #FF655B;
+    color: white;
     border:0 !important;
     }
     
@@ -66,8 +67,8 @@ html,body{
     }
     
     .login_btn{
-    color: black;
-    background-color: #FFC312;
+    color: white;
+    background-color: #FF655B;
     width: 100px;
     }
     
@@ -85,4 +86,5 @@ html,body{
     
     .links a{
     margin-left: 4px;
+    color: white;
     }

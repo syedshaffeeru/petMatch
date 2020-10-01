@@ -11,6 +11,7 @@
 body{
     background-image: url('https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1150&q=80');
     background-size: cover;
+    color: white;
         
 }
 h1{
@@ -26,4 +27,29 @@ hr{
     width: 400px;
     border-top:1px solid #f8f8f8 ;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#bs-example-navbar-collapse-1 .navbar-nav li a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+
+.navigation , #content .btn-default{
+    background:linear-gradient(to top, #FD297B 0%, #FF655B 100%);
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white !important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #FF655B !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #FF655B !important;
 }

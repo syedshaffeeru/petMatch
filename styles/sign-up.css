@@ -1,0 +1,35 @@
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1573435567032-ff5982925350?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80');
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.card{
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 400px;
+    background: linear-gradient(to top, #FD297B 0%, #FF655B 100%) !important;  
+}
+    
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #ff665bdc;
+    color: white;
+    border:0 !important;
+    }
+
+.card .card-header {
+    background:linear-gradient(to top, #FD297B 0%, #FF655B 100%);
+    color: white;
+}
+
+.btn-success{
+    background:linear-gradient(to top, #FD297B 0%, #FF655B 100%);
+}
