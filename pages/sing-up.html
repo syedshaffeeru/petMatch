@@ -21,7 +21,7 @@
 <div id="background"></div>    
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
-		<div class="card">
+		<div class="card border">
 			<div class="card-header">
             <h5 class="d-inline">Sign Up</h5>
 			</div>
@@ -54,25 +54,43 @@
 						</div>
 						<input type="password" class="form-control" placeholder="Confrim password">
                     </div>
-
+					
+					<div class="input-group form-group">
+                        <div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-location-arrow"></i></span>
+						</div>
+						<input type="Text" class="form-control" placeholder="Location">
+					</div>
+					
+					<!-- Pet that you have -->
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"><i class="fas fa-paw"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Confrim password">
+					
+						<select class="form-control" id="" aria-placeholder="Pet that you have">
+							<option disabled hidden selected value="">Pet that you have</option>
+							<option value="Cat">Cat</option>
+							<option value="Dog">Dog</option>
+						</select>
                     </div>
-                    
+					
+
+					<!-- Gender of Pet -->
                     <div class="form-group">
                         <div class="container">
                             <div class="row">
-                                <div class="col-6">
+								<div class="col-4 radio">
+									Pet's Gender
+								</div>
+                                <div class="col-4 radio">
                                     <div class="custom-control custom-radio custom-control-inline">
                                         <input type="radio" class="custom-control-input" id="customRadio" name="example" value="Male">
                                         <label class="custom-control-label" for="customRadio">Male</label>
                                       </div>
 
                                 </div>
-                                <div class="col-6">
+                                <div class="col-4 radio">
                                     <div class="custom-control custom-radio custom-control-inline">
                                         <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="Female">
                                         <label class="custom-control-label" for="customRadio2">Female</label>
@@ -81,7 +99,6 @@
                                 
                             </div>
                         </div>
-					 
 					</div>    
 					<div class="form-group">
 						<input type="submit" value="Sign up" class="btn btn-success login_btn">
@@ -91,5 +108,9 @@
 		</div>
 	</div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
 </html>
