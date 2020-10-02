@@ -19,7 +19,17 @@ html,body{
     width: 400px;
     background: linear-gradient(to top, #FD297B 0%, #FF655B 100%) !important;  
 }
-    
+ 
+.social_icon {
+    position: absolute;
+    right: 16px;
+    top: -58px;
+}
+
+.social_icon span {
+    font-size: 70px;
+    color: white;
+}
 
 .input-group-prepend span{
     width: 50px;
